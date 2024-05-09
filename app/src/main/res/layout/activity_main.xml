@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+
+    android:background="@color/background">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="Launch your Dream Fund your Future"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="@color/text"
+        android:layout_above="@id/Logo"
+        android:fontFamily="@font/inter_extrabold"
+        android:textSize="35sp"/>
+
+    <ImageView
+        android:id="@+id/Logo"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/start" />
+
+    <com.jpardogo.android.googleprogressbar.library.GoogleProgressBar
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        app:type="folding_circles"
+        app:colors="@array/colors"
+        android:layout_below="@id/Logo"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="30dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/designs"
+        android:layout_alignParentBottom="true"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/designs2" />
+
+</RelativeLayout>

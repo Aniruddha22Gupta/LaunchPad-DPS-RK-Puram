@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="transparent">#11111100</color>
+    <color name="button1">#C7CCFB</color>
+    <color name="button2">#00457E</color>
+    <color name="text">#00457E</color>
+    <color name="background">#CAF0F8</color>
+    <color name="textInput">#CFDFE8</color>
+    <array name="colors">
+        <item>#03045E</item>
+        <item>#00457E</item>
+        <item>#0077B6</item>
+        <item>#969393</item>
+    </array>
+
+</resources>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1042662731273",
+    "project_id": "dps-rkp-pb",
+    "storage_bucket": "dps-rkp-pb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1042662731273:android:8320462dcd428faa8792d8",
+        "android_client_info": {
+          "package_name": "in.aniruddhag.dps_rkp_pb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1042662731273-168vus5hlo866cb8g78dtdp1rcgil50b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.aniruddhag.dps_rkp_pb",
+            "certificate_hash": "1f57c494570e79e48a1c3924dbea28acf4b62d65"
+          }
+        },
+        {
+          "client_id": "1042662731273-6stf30e0o26og51gl7jvi804na6ttr8r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVdnQlt34KCWQ_wFRyqLPiWR-ewbTHjTY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1042662731273-5f9j3dif4ajls50m5ntqlc0g08mul3h6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
